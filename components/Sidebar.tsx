@@ -9,7 +9,7 @@ import {
 
 export default function Sidebar() {
   return (
-    <div className="w-max overflow-auto bg-gray-100 dark:bg-gray-800">
+    <div className="w-max overflow-auto bg-gray-100 dark:bg-zinc-800">
       <div className="flex flex-col sm:flex-row sm:justify-around">
         <div className="h-screen w-72">
           <nav className="mt-10 px-6 ">
