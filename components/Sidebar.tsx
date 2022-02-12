@@ -46,7 +46,7 @@ export default function Sidebar() {
               <span className="mx-4 text-lg font-normal">Your Library</span>
             </a>
 
-            <hr className="bg-gray-900" />
+            <hr className="border border-solid border-gray-300 dark:border-gray-600" />
 
             {/* Create Playlist */}
             <a
@@ -81,7 +81,7 @@ export default function Sidebar() {
               <span className="mx-4 text-lg font-normal">Your episodes</span>
             </a>
 
-            <hr className="bg-gray-900" />
+            <hr className="border border-solid border-gray-300 dark:border-gray-600" />
 
             {/* Playlists */}
             <a

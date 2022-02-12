@@ -3,7 +3,7 @@ import Sidebar from '../components/Sidebar'
 
 export default function Home() {
   return (
-    <div className="overflow-hidden">
+    <div className=" overflow-hidden">
       <Head>
         <title>Music</title>
         <link rel="icon" href="/favicon.ico" />
