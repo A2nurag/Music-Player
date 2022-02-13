@@ -21,12 +21,12 @@ export default function Login({ providers }) {
 
       <main className="grid h-screen w-full select-none place-items-center bg-gray-100 dark:bg-zinc-700">
         <div className="flex min-w-max flex-col items-center gap-16">
-          <div className="flex flex-row items-center gap-6">
+          <div className="flex flex-row items-center gap-2 md:gap-6">
             <img
               src="/not-spotify-logo.svg"
-              className="pointer-events-none w-40"
+              className="pointer-events-none w-16 md:w-40"
             />
-            <h1 className="pt-8 text-5xl font-bold text-[#75ba2f]">
+            <h1 className="pt-3 text-3xl font-bold text-[#75ba2f] md:pt-6 md:text-5xl">
               Not Spotify
             </h1>
           </div>
